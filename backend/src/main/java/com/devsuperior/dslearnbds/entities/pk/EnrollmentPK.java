@@ -26,6 +26,7 @@ public class EnrollmentPK implements Serializable{
 	}
 
 	public EnrollmentPK(User user, Offer offer) {
+		super();
 		this.user = user;
 		this.offer = offer;
 	}
